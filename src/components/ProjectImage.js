@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import Modal from "./Modal";
+import { useState } from "react";
+import ProjectModal from "./ProjectModal";
 
 const ProjectImage = ({ project }) => {
   const [showModal, setShowModal] = useState(false);
@@ -8,7 +8,8 @@ const ProjectImage = ({ project }) => {
   };
   return (
     <div
-      className="w-[49%] shadow-md cursor-pointer rounded-lg relative"
+      //w-[49%] w-[335px] lg:w-[49%] min-w-[335px] lg:min-w-[49%]
+      className="shadow-md cursor-pointer rounded-lg relative mt-4 md:mx-auto "
       onClick={() => setShowModal(true)}
     >
       <img
@@ -34,12 +35,11 @@ const ProjectImage = ({ project }) => {
           </div>
         </div>
       </div>
-      {showModal && <Modal project={project} closeFunc={closeModal} />}
+      {showModal && <ProjectModal project={project} closeFunc={closeModal} />}
     </div>
   );
 };
 
 export default ProjectImage;
 
-/* <img src="/projects/airbnb.gif" alt="project" className="w-[49%] mt-4 shadow-md" />
-        <img src="/projects/netflix.gif" alt="project" className="w-[49%] mt-4 shadow-md" /> */
+

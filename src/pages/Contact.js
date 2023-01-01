@@ -1,5 +1,3 @@
-import React from "react";
-import { BsLinkedin, BsTwitter, BsGithub } from "react-icons/bs";
 import * as yup from "yup";
 import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
@@ -29,8 +27,8 @@ const onSubmit = (data) => {
       <p className="dark:text-white text-base font-gabriela text-center font-semibold my-3">
         Get in touch or send me an email directly on ezembachiamaka@gmail.com
       </p>
-      <div className="w-[60%] mx-auto ">
-        <form   onSubmit={handleSubmit(onSubmit)}>
+      <div className="lg:w-[60%] mx-auto w-full mb-20">
+        <form  onSubmit={handleSubmit(onSubmit)} >
           <input
             type="text"
             className="w-full border my-2 p-2 rounded-md bg-white dark:bg-[#020A13] text-base font-gabriela dark:text-white"
@@ -65,33 +63,9 @@ const onSubmit = (data) => {
             Send Message
           </button>
         </form>
-        <div className="flex flex-row items-center justify-between w-[26%] mt-6 text-[#020A13] dark:text-white text-3xl ">
-          <a
-            href="https://www.linkedin.com/in/chiamaka-ezemba/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsLinkedin />
-          </a>
-          <a
-            href="https://github.com/ChiamakaUI"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsGithub />
-          </a>
-          <a
-            href="https://twitter.com/Ada_ezemba"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <BsTwitter />
-          </a>
-        </div>
       </div>
     </div>
   );
 };
 
 export default Contact;
-//className='bg-white dark:bg-slate-800 w-screen h-screen'

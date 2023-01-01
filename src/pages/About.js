@@ -1,8 +1,7 @@
-import React from "react";
 
 const About = () => {
   return (
-    <div className="w-[80%] max-w-screen-2xl mx-auto mt-10">
+    <div className="w-[80%] max-w-screen-2xl mx-auto my-10">
       <p className="dark:text-white text-3xl font-gabriela text-center font-semibold">
         About Me.
       </p>
@@ -28,4 +27,3 @@ const About = () => {
 };
 
 export default About;
-//className='bg-white dark:bg-slate-800 w-screen h-screen'

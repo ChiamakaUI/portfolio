@@ -1,4 +1,3 @@
-import React from "react";
 import ProjectImage from "../components/ProjectImage";
 
 const Projects = () => {
@@ -14,19 +13,35 @@ const Projects = () => {
     },
     {
       id: 2,
+      name: "Movie App",
+      image: "/projects/movie-app.gif",
+      technologies: ["Firebase", "React", "Context API", "React Query", "X-styled"],
+      liveUrl: "https://velvety-pastelito-aea46f.netlify.app/",
+      githubLink: "https://github.com/ChiamakaUI/movie-app",
+    },
+    {
+      id: 3,
+      name: "EazyFoods",
+      image: "/projects/food-app.gif",
+      technologies: ["Firebase", "React", "Context API", "Tailwind", ],
+      liveUrl: "https://silly-cocada-236c8b.netlify.app/",
+      githubLink: "https://github.com/ChiamakaUI/food-app",
+    },
+    {
+      id: 4,
       name: "Netflix Clone",
       image: "/projects/netflix.gif",
-      technologies: ["Firebase", "React", "Context API", "React Query"],
+      technologies: ["Firebase", "React", "Context API", "React Query", "Tailwind"],
       liveUrl: "https://sprightly-fenglisu-d02718.netlify.app/",
       githubLink: "https://github.com/ChiamakaUI/netflix",
     },
   ];
   return (
-    <div className="w-[80%] max-w-screen-2xl mx-auto mt-10">
+    <div className="w-full md:w-[88%] lg:w-[80%] max-w-screen-2xl mx-auto mt-10">
       <p className="dark:text-white text-3xl font-gabriela text-center font-semibold">
         Projects.
       </p>
-      <div className="w-[35%] flex flex-row items-center justify-between mx-auto mt-8 border-b p-6 dark:border-b-grey-800">
+      <div className="w-[80%] lg:w-[35%] flex flex-row items-center justify-between mx-auto mt-8 border-b p-6 dark:border-b-grey-800">
         {tabs.map((tab, index) => (
           <button
             key={index}
@@ -36,7 +51,7 @@ const Projects = () => {
           </button>
         ))}
       </div>
-      <div className="flex flex-row w-full mt-3 items-center justify-between flex-wrap p-8">
+      <div className="flex flex-row w-full items-center justify-between flex-wrap p-5 lg:p-8">
         {projects.map((project) => (
           <ProjectImage key={project?.id} project={project} />
         ))}

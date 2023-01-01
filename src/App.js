@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import { ThemeContext } from "./contexts/ThemeContext";
 import { useState, useEffect } from "react";
+import Footer from "./components/Footer";
 function App() {
   const [theme, setTheme] = useState("dark");
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
+          <Footer/>
         </div>
       </ThemeContext.Provider>
     </BrowserRouter>
