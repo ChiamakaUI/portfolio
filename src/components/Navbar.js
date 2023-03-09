@@ -17,6 +17,8 @@ const Navbar = () => {
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
+        {/* <Link to="/contact">Blog</Link> */}
+        <button onClick={() => window.location.href = 'https://chiamakaezemba.hashnode.dev/'}>Blog</button>
         <ToggleIcon />
       </div>
       <div className="lg:hidden">
@@ -66,6 +68,15 @@ const Navbar = () => {
                 className="uppercase"
               >
                 Contact
+              </button>
+              <button
+                onClick={() => {
+                  window.location.href = 'https://chiamakaezemba.hashnode.dev/'
+                  setShowModal(false);
+                }}
+                className="uppercase"
+              >
+                Blog
               </button>
             </div>
             <RxCross2

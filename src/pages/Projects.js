@@ -5,6 +5,22 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      name: "Artsy",
+      image: "/projects/artsy.gif",
+      technologies: ["Next JS", "Context API", "Tailwind CSS"],
+      liveUrl: "https://artsy-six.vercel.app/",
+      githubLink: "https://github.com/ChiamakaUI/artsy",
+    },
+    {
+      id: 2,
+      name: "EazyFoods",
+      image: "/projects/food-app.gif",
+      technologies: ["Firebase", "React", "Context API", "Tailwind"],
+      liveUrl: "https://eazyfoods.netlify.app/",
+      githubLink: "https://github.com/ChiamakaUI/food-app",
+    },
+    {
+      id: 3,
       name: "Airbnb Clone",
       image: "/projects/airbnb.gif",
       technologies: ["Firebase", "React", "Context API"],
@@ -12,28 +28,32 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/airbnb-clone",
     },
     {
-      id: 2,
-      name: "Movie App",
-      image: "/projects/movie-app.gif",
-      technologies: ["Firebase", "React", "Context API", "React Query", "X-styled"],
-      liveUrl: "https://velvety-pastelito-aea46f.netlify.app/",
-      githubLink: "https://github.com/ChiamakaUI/movie-app",
-    },
-    {
-      id: 3,
-      name: "EazyFoods",
-      image: "/projects/food-app.gif",
-      technologies: ["Firebase", "React", "Context API", "Tailwind", ],
-      liveUrl: "https://silly-cocada-236c8b.netlify.app/",
-      githubLink: "https://github.com/ChiamakaUI/food-app",
-    },
-    {
       id: 4,
       name: "Netflix Clone",
       image: "/projects/netflix.gif",
-      technologies: ["Firebase", "React", "Context API", "React Query", "Tailwind"],
+      technologies: [
+        "Firebase",
+        "React",
+        "Context API",
+        "React Query",
+        "Tailwind",
+      ],
       liveUrl: "https://sprightly-fenglisu-d02718.netlify.app/",
       githubLink: "https://github.com/ChiamakaUI/netflix",
+    },
+    {
+      id: 5,
+      name: "Movie App",
+      image: "/projects/movie-app.gif",
+      technologies: [
+        "Firebase",
+        "React",
+        "Context API",
+        "React Query",
+        "X-styled",
+      ],
+      liveUrl: "https://velvety-pastelito-aea46f.netlify.app/",
+      githubLink: "https://github.com/ChiamakaUI/movie-app",
     },
   ];
   return (
