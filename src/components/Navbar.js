@@ -17,7 +17,8 @@ const Navbar = () => {
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
-        <button onClick={() => window.location.href = 'https://chiamakaezemba.hashnode.dev/'}>Blog</button>
+        {/* <button onClick={() => window.location.href = 'https://chiamakaezemba.hashnode.dev/'}>Blog</button> */}
+        <button onClick={() => window.open('https://chiamakaezemba.hashnode.dev/', '_blank')}>Blog</button>
         <ToggleIcon />
       </div>
       <div className="lg:hidden">
