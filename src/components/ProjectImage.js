@@ -9,7 +9,7 @@ const ProjectImage = ({ project }) => {
   return (
     <div
       //w-[49%] w-[335px] lg:w-[49%] min-w-[335px] lg:min-w-[49%]
-      className="shadow-md cursor-pointer rounded-lg relative mt-4 md:mx-auto "
+      className="shadow-md cursor-pointer rounded-lg relative mt-4 w-full md:mx-auto lg:w-[49%] md:w-[49%]"
       onClick={() => setShowModal(true)}
     >
       <img

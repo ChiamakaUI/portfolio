@@ -13,6 +13,14 @@ const Projects = () => {
     },
     {
       id: 2,
+      name: "Quizzer",
+      image: "/projects/quizzer.gif",
+      technologies: ["Firebase", "React", "Context API", "Tailwind"],
+      liveUrl: "https://quizzer-web-app.netlify.app/",
+      githubLink: "https://github.com/ChiamakaUI/quizzer",
+    },
+    {
+      id: 3,
       name: "EazyFoods",
       image: "/projects/food-app.gif",
       technologies: ["Firebase", "React", "Context API", "Tailwind"],
@@ -20,7 +28,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/food-app",
     },
     {
-      id: 3,
+      id: 4,
       name: "Airbnb Clone",
       image: "/projects/airbnb.gif",
       technologies: ["Firebase", "React", "Context API"],
@@ -28,7 +36,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/airbnb-clone",
     },
     {
-      id: 4,
+      id: 5,
       name: "Netflix Clone",
       image: "/projects/netflix.gif",
       technologies: [
@@ -42,19 +50,30 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/netflix",
     },
     {
-      id: 5,
-      name: "Movie App",
-      image: "/projects/movie-app.gif",
+      id: 6,
+      name: "Shortly",
+      image: "/projects/shortly.gif",
       technologies: [
-        "Firebase",
         "React",
-        "Context API",
-        "React Query",
-        "X-styled",
+        "React Icons",
       ],
-      liveUrl: "https://velvety-pastelito-aea46f.netlify.app/",
-      githubLink: "https://github.com/ChiamakaUI/movie-app",
+      liveUrl: "https://comforting-tapioca-b2337d.netlify.app/",
+      githubLink: "https://github.com/ChiamakaUI/url-shortening-landingpage",
     },
+    // {
+    //   id: 7,
+    //   name: "Movie App",
+    //   image: "/projects/movie-app.gif",
+    //   technologies: [
+    //     "Firebase",
+    //     "React",
+    //     "Context API",
+    //     "React Query",
+    //     "X-styled",
+    //   ],
+    //   liveUrl: "https://velvety-pastelito-aea46f.netlify.app/",
+    //   githubLink: "https://github.com/ChiamakaUI/movie-app",
+    // },
   ];
   return (
     <div className="w-full md:w-[88%] lg:w-[80%] max-w-screen-2xl mx-auto mt-10">

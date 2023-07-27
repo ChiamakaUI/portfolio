@@ -13,11 +13,10 @@ const Navbar = () => {
       <Link to="/">
         <h2 className="text-5xl font-abril dark:text-white">CE.</h2>
       </Link>
-      <div className="lg:flex flex-row items-center justify-between text-gray-500 dark:text-white text-lg font-gabriela w-[40%] hidden">
+      <div className="lg:flex flex-row items-center justify-between dark:text-white text-lg font-gabriela w-[40%] hidden">
         <Link to="/about">About</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/contact">Contact</Link>
-        {/* <Link to="/contact">Blog</Link> */}
         <button onClick={() => window.location.href = 'https://chiamakaezemba.hashnode.dev/'}>Blog</button>
         <ToggleIcon />
       </div>
