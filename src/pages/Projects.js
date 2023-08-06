@@ -5,6 +5,14 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
+      name: "Plantif",
+      image: "/projects/plantif.gif",
+      technologies: ["Next JS", "Context API", "Tailwind CSS", "Sanity"],
+      liveUrl: "https://plantiff.vercel.app/",
+      githubLink: "https://github.com/ChiamakaUI/plantiff",
+    },
+    {
+      id: 2,
       name: "Artsy",
       image: "/projects/artsy.gif",
       technologies: ["Next JS", "Context API", "Tailwind CSS"],
@@ -12,7 +20,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/artsy",
     },
     {
-      id: 2,
+      id: 3,
       name: "Quizzer",
       image: "/projects/quizzer.gif",
       technologies: ["Firebase", "React", "Context API", "Tailwind"],
@@ -20,7 +28,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/quizzer",
     },
     {
-      id: 3,
+      id: 4,
       name: "EazyFoods",
       image: "/projects/food-app.gif",
       technologies: ["Firebase", "React", "Context API", "Tailwind"],
@@ -28,7 +36,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/food-app",
     },
     {
-      id: 4,
+      id: 5,
       name: "Airbnb Clone",
       image: "/projects/airbnb.gif",
       technologies: ["Firebase", "React", "Context API"],
@@ -36,7 +44,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/airbnb-clone",
     },
     {
-      id: 5,
+      id: 6,
       name: "Netflix Clone",
       image: "/projects/netflix.gif",
       technologies: [
@@ -50,7 +58,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/netflix",
     },
     {
-      id: 6,
+      id: 7,
       name: "Shortly",
       image: "/projects/shortly.gif",
       technologies: [
@@ -61,7 +69,7 @@ const Projects = () => {
       githubLink: "https://github.com/ChiamakaUI/url-shortening-landingpage",
     },
     // {
-    //   id: 7,
+    //   id: 8,
     //   name: "Movie App",
     //   image: "/projects/movie-app.gif",
     //   technologies: [
